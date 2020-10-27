@@ -1,4 +1,4 @@
-package academy.learnprogramming.section6challenge
+package expressions
 
 
 fun main(args: Array<String>) {

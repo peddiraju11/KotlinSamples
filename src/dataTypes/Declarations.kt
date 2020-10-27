@@ -1,6 +1,6 @@
-package academy.learnprogramming.declarations
+package  dataTypes
 
-fun main(args: Array<String>)  {
+fun main(args: Array<String>) {
 
     var number: Int
     number = 10;
@@ -16,7 +16,7 @@ fun main(args: Array<String>)  {
 
     val numerator = 10.99
     val denominator = 20.00
-    println("The value of $numerator divided by $denominator is ${numerator/denominator}")
+    println("The value of $numerator divided by $denominator is ${numerator / denominator}")
 
     println("The employee's id is ${employee1.id}")
 
@@ -28,7 +28,7 @@ fun main(args: Array<String>)  {
     println(nurseryRhyme)
 }
 
-class Employee(var name: String, val id : Int) {
+class Employee(var name: String, val id: Int) {
 
     override fun toString(): String {
         return "Employee(name=$name, id=$id)"
