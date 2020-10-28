@@ -13,13 +13,6 @@ fun main() {
 
 }
 
-fun getEachItems(members: List<Family>, age: Int) {
-
-    members.forEach {
-        println(it.name)
-    }
-}
-
 data class Family(val name: String, val relationship: String, val age: Int) {
 
 }

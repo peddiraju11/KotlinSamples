@@ -2,11 +2,11 @@ package lambdas
 
 fun main() {
 
-    /* val items = mapOf("coins" to 12, "books" to 45, "cups" to 33)
+    val items = mapOf("coins" to 12, "books" to 45, "cups" to 33)
 
-     println("Entries: " + items.entries)
-     println("Keys:" + items.keys)
-     println("Values:" + items.values)*/
+    println("Entries: " + items.entries)
+    println("Keys:" + items.keys)
+    println("Values:" + items.values)
 
     /*val items = HashMap<String, Int>()
 
@@ -21,7 +21,7 @@ fun main() {
     val user = mutableMapOf("name" to "Raju", "occupation" to "programmer")
     println(user)
 
-   /* user["location"] = "India"
+    user["location"] = "India"
     println(user)
 
     user.remove("occupation")
@@ -34,5 +34,5 @@ fun main() {
         println("empty")
     } else {
         println("not empty")
-    }*/
+    }
 }
