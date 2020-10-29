@@ -4,12 +4,12 @@ public class Employee {
 
     private String fName;
     private String lName;
-    private float[] salarydata;
+    private float[] salaryData;
 
     public Employee(String firstName, String lastName) {
         this.fName = firstName;
         this.lName = lastName;
-        this.salarydata = new float[3];
+        this.salaryData = new float[3];
     }
 
     public String getfName() {
@@ -28,11 +28,11 @@ public class Employee {
         this.lName = lName;
     }
 
-    public float[] getSalarydata() {
-        return salarydata;
+    public float[] getSalaryData() {
+        return salaryData;
     }
 
-    public void setSalarydata(float[] salarydata) {
-        this.salarydata = salarydata;
+    public void setSalaryData(float[] salaryData) {
+        this.salaryData = salaryData;
     }
 }

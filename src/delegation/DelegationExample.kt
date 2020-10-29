@@ -29,5 +29,9 @@ class NewFeature(m: Delegation) : Delegation by m {
     override fun myMessage() {
         println("Hey Check this!!")
     }
+
+    /*override fun myMessageLine() {
+        println("Hey ertreteetr this!!")
+    }*/
 }
 

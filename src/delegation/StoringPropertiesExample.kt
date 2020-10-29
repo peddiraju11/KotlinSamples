@@ -1,6 +1,7 @@
 package delegation
 
 fun main() {
+
     val mobile = Mobile(mapOf(
             "modelName" to "SAMSUNG",
             "variant" to 64))
